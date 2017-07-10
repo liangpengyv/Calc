@@ -131,6 +131,11 @@ class ViewController: UIViewController {
         outputLabel.text = ""
     }
     
+    //用来跑单元测试的方法
+    func useTestOfFunc(num1: Int, num2: Int) -> Int{
+        return num1 + num2
+    }
+    
     
 }
 

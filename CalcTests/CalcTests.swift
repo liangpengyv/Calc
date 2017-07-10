@@ -11,9 +11,14 @@ import XCTest
 
 class CalcTests: XCTestCase {
     
+    var vc: ViewController!
+
+    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        vc = storyboard.instantiateInitialViewController() as! ViewController
     }
     
     override func tearDown() {
@@ -24,6 +29,8 @@ class CalcTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let temp = vc.useTestOfFunc(num1: 2, num2: 3)
+        XCTAssert(temp == 5)
     }
     
     func testPerformanceExample() {
