@@ -123,7 +123,7 @@ class ViewController: UIViewController {
             ()
         }
         outputLabel.text = "\(ans)"
-        print(ans)
+        print(ans) 
     }
     @IBAction func inputClear(_ sender: UIButton) {
         inputText = ""
