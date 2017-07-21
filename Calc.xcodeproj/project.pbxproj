@@ -47,6 +47,7 @@
 		57CAD2C81F0E3056000293EE /* CalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CAD2CC1F0E3056000293EE /* CalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcUITests.swift; sourceTree = "<group>"; };
 		57CAD2CE1F0E3056000293EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57E3440D1F1F5FAF001D70C6 /* Calc copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Calc copy-Info.plist"; path = "/Users/flow/XcodeProjects/Calc/Calc copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 				57CAD2C01F0E3056000293EE /* CalcTests */,
 				57CAD2CB1F0E3056000293EE /* CalcUITests */,
 				57CAD2AA1F0E3056000293EE /* Products */,
+				57E3440D1F1F5FAF001D70C6 /* Calc copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -423,8 +425,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = online.laoliang.Calc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e0c97b0d-bd11-4882-865c-7af9d7e00c53";
-				PROVISIONING_PROFILE_SPECIFIER = "iOS Team Provisioning Profile: online.laoliang.CalcUITests";
+				PROVISIONING_PROFILE = "4035b076-c6db-45fa-afd8-57a3e6031afc";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Team Provisioning Profile: online.laoliang.Calc";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -440,8 +442,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = online.laoliang.Calc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e0c97b0d-bd11-4882-865c-7af9d7e00c53";
-				PROVISIONING_PROFILE_SPECIFIER = "iOS Team Provisioning Profile: online.laoliang.CalcUITests";
+				PROVISIONING_PROFILE = "4035b076-c6db-45fa-afd8-57a3e6031afc";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Team Provisioning Profile: online.laoliang.Calc";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

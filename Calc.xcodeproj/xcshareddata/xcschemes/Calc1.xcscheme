@@ -20,20 +20,6 @@
                ReferencedContainer = "container:Calc.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "57CAD2BC1F0E3056000293EE"
-               BuildableName = "CalcTests.xctest"
-               BlueprintName = "CalcTests"
-               ReferencedContainer = "container:Calc.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -42,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "57CAD2BC1F0E3056000293EE"
-               BuildableName = "CalcTests.xctest"
-               BlueprintName = "CalcTests"
-               ReferencedContainer = "container:Calc.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "57CAD2C71F0E3056000293EE"
-               BuildableName = "CalcUITests.xctest"
-               BlueprintName = "CalcUITests"
-               ReferencedContainer = "container:Calc.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
