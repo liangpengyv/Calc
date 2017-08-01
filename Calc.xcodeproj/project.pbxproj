@@ -40,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		573224AD1F304DA0004C3275 /* CalcDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalcDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		573224AE1F304DA0004C3275 /* Calc copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Calc copy2-Info.plist"; path = "/Users/flow/XcodeProjects/Calc/Calc copy2-Info.plist"; sourceTree = "<absolute>"; };
+		573224AE1F304DA0004C3275 /* CalcDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CalcDev-Info.plist"; path = "/Users/flow/XcodeProjects/Calc/CalcDev-Info.plist"; sourceTree = "<absolute>"; };
 		57CAD2A91F0E3056000293EE /* Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CAD2AC1F0E3056000293EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57CAD2AE1F0E3056000293EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,7 +95,6 @@
 				57CAD2C01F0E3056000293EE /* CalcTests */,
 				57CAD2CB1F0E3056000293EE /* CalcUITests */,
 				57CAD2AA1F0E3056000293EE /* Products */,
-				573224AE1F304DA0004C3275 /* Calc copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +118,7 @@
 				57CAD2B31F0E3056000293EE /* Assets.xcassets */,
 				57CAD2B51F0E3056000293EE /* LaunchScreen.storyboard */,
 				57CAD2B81F0E3056000293EE /* Info.plist */,
+				573224AE1F304DA0004C3275 /* CalcDev-Info.plist */,
 			);
 			path = Calc;
 			sourceTree = "<group>";
